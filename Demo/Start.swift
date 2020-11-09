@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
-
+import Foundation
 struct ContentView: View {
+    var text:String = "helloooo"
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text(text)
+            
+        }
+        
     }
 }
 
